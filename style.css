@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+/* -----------
+font-style and body
+-------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(252, 248, 248);
+    
+}
+h1{
+    font-size: 55px;
+}
+/* -------------
+header
+-------------------- */
+
+header{
+    justify-content: center;
+}
+
+/* -----------------
+container-1-styles
+------------------ */
+
+.container-1{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+}
+.first-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+.first-part {
+    width: 50%;
+}
+.first-part h1{
+    margin: auto;
+    color: #9424F0;
+
+}
+.first-div img{
+    width: 110%;
+
+}
+.first-div a{
+    display: inline-block;
+    color: antiquewhite;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 15px 45px 15px 45px;
+    border-radius: 50px;
+    background-image: linear-gradient(90deg,#fd297a,  #9424F0);
+}
+
+/*-------------------
+container-1 style end
+ --------------------*/
+
+.product-div{
+    display: inline-block;
+    justify-content: center;
+}
+
+/*--------------------- 
+cotainer-2 style start
+----------------------*/
+
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    margin: 100px 0px 100px 230px;
+    Width:1047px;
+    Height:1662px;
+    
+}
+
+.product-list{
+    
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding: 15px 20px 15px 20px ;
+    filter: drop-shadow(0 0 0.50px gray);
+    
+}
+.product-name{
+    color: #9424F0;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+.product-pricing{
+    color: black;
+    font-size: 23px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+   
+}
+
+.fa-star{
+    color: orange;
+}
+.product-des{
+    margin: auto;
+    margin-top: 12px;
+}
+
+/*-------------------
+container-2 style end 
+ --------------------*/
+
+
+
