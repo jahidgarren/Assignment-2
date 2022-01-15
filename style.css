@@ -17,7 +17,7 @@ header
 -------------------- */
 
 header{
-    margin-left: 150px;
+    margin-left: 110px;
     color:#9424f0;
     display: grid;
     
@@ -292,9 +292,10 @@ media queries
      }
      .first-part{
          width: 100%;
-         justify-content: center;
+         
          text-align: center;
          margin: auto;
+         padding: 0px;
      }
 
     .first-div h1{
