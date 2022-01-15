@@ -55,6 +55,9 @@ container-1-styles
     color: #9424f0;
 
 }
+.first-part p{
+    padding-right: 50px;
+}
 .first-div img{
     width: 110%;
 
@@ -271,10 +274,15 @@ media queries
 
  @media only screen and (max-width:688px) {
      .first-div{
+        
          display: inline-block;
          width: 100%;
          font-size: 14px;
          justify-content: center;
+     }
+     .first-div img{
+         width: 100%;
+         margin: auto;
      }
      .first-part{
          width: 100%;
@@ -305,16 +313,20 @@ media queries
     .container-4{
         justify-content: center;
         margin: auto;
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .optional-section{
         display: block;
+        width: 100%;
         text-align: center;
         
     }
+    .optional-section img{
+        width: 100%;
+    }
     .optional-section-detail{
-        width: 80%;
+        width:100%;
         margin: auto;
     }
     .optional-section-detail h1{
