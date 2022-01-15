@@ -314,10 +314,22 @@ media queries
         
     }
     .optional-section-detail{
-        width: 100%;
+        width: 80%;
         margin: auto;
     }
     .optional-section-detail h1{
         font-size: 30px;
     }
  }
+
+
+
+ /*-----------------
+  for tab 
+  ------------------*/
+
+@media only screen and (max wdith: 688px) and (max-width:992px) {
+
+
+    
+}
