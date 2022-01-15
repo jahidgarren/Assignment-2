@@ -271,12 +271,20 @@ media queries
  -------------------*/
 
  @media only screen and (max-width:688px) {
-     .first-div{
+    header{
+        margin-left: 150px;
+        display: grid;
         
-         display: inline-block;
-         width: 100%;
-         font-size: 14px;
-         justify-content: center;
+    }
+    
+    
+    
+    .first-div{
+        
+      display: inline-block;
+      width: 100%;
+      font-size: 14px;
+        justify-content: center;
      }
      .first-div img{
          width: 100%;
@@ -342,7 +350,6 @@ media queries
 
     header{
         width: 100%;
-        color:#9424f0;
         margin: auto;
         margin-left: 30px;
         
