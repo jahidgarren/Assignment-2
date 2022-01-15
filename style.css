@@ -119,9 +119,6 @@ cotainer-2 style start
     margin: 20px 0px 50px 230px;
     Width:1047px;
     Height:1662px;
-    
-   
-    
 }
 
 .product-list{
@@ -340,7 +337,65 @@ media queries
   for tab 
   ------------------*/
 
-@media only screen and (max wdith: 688px) and (max-width:992px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+
+    header{
+        width: 100%;
+        color:#9424f0;
+        margin: auto;
+        margin-left: 30px;
+        
+    }
+
+    .first-part{
+        width: 100%;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+
+    .first-div img{
+        width: 100%;
+        margin: auto;
+    }
+    .first-div h1{
+        font-size: 35px;
+     
+    }
+
+
+    .container-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 30px;
+        Width:40%;
+        height: 100%;
+    }
+
+    .container-4{
+        justify-content: center;
+        margin: auto;
+        margin-left: 30px;
+    }
+
+
+    .optional-section{
+        display: block;
+        width: 100%;
+    }
+    .optional-section img{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .optional-section-detail{
+        width:90%;
+        margin: auto;
+    }
+    .optional-section-detail h1{
+        font-size: 30px;
+    }
+
 
 
     
