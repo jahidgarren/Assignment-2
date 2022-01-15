@@ -116,7 +116,8 @@ cotainer-2 style start
     grid-column-gap: 50px;
     grid-row-gap: 30px;
     justify-content: center;
-    margin: 20px 0px 50px 230px;
+    margin: auto;
+    margin-bottom: 30px;
     Width:1047px;
     Height:1662px;
 }
