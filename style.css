@@ -20,6 +20,9 @@ header{
     justify-content: center;
 }
 
+
+
+
 /* -----------------
 container-1-styles
 ------------------ */
@@ -49,7 +52,7 @@ container-1-styles
     width: 110%;
 
 }
-.first-div a{
+.for-all-button{
     display: inline-block;
     color: antiquewhite;
     text-decoration: none;
@@ -63,10 +66,29 @@ container-1-styles
 container-1 style end
  --------------------*/
 
-.product-div{
-    display: inline-block;
+
+
+
+
+ /*------------------------------
+ product section name style start 
+  -----------------------------*/
+
+.product-section-name{
+    display: flex;
+    font-size: 24px;
+    color: #9424F0;
+    padding-top: 50px;
+    margin: auto;
+    width: 100%;
     justify-content: center;
 }
+
+/*---------------------------
+product section name style end 
+ ----------------------------*/
+
+
 
 /*--------------------- 
 cotainer-2 style start
@@ -78,7 +100,7 @@ cotainer-2 style start
     grid-column-gap: 50px;
     grid-row-gap: 30px;
     justify-content: center;
-    margin: 100px 0px 100px 230px;
+    margin: 20px 0px 50px 230px;
     Width:1047px;
     Height:1662px;
     
@@ -120,6 +142,53 @@ cotainer-2 style start
 /*-------------------
 container-2 style end 
  --------------------*/
+
+
+ /* ---------------------------------------
+ one-time-button or container-4 style start
+  ----------------------------------------*/
+
+  .container-4{
+      width: 90%;
+      display: flex;
+      justify-content: right;
+  }
+
+  #one-time-button{
+    display: flex;
+
+    color: antiquewhite;
+    text-decoration: none;
+    margin: auto;
+    margin-right: 20px;
+    padding: 15px 45px 15px 45px;
+    border-radius: 50px;
+    background-image: linear-gradient(90deg,#fd297a,  #9424F0);
+  }
+
+
+   /* -----------------------------------
+ one-time-button or container4 style end
+  -------------------------------------*/
+
+
+
+  /*------------------------ 
+  container-5 style start 
+  --------------------------*/
+
+  .optional-section{
+    display: flex;
+    margin-top: 100px;
+    width: 1660px;
+    display: flex;
+  }
+  .optional-section-emage{
+      width: 50%;
+  }
+  .optional-section-detail{
+      width: 50%;
+  }
 
 
 
